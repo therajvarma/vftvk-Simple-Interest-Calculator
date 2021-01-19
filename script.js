@@ -3,7 +3,7 @@ function rateValue(val){
 }
 function calculate(){
 amount = document.getElementById('amount').value;
-if (amount<=0){
+if (amount<=0||amount=""){
 alert("enter a postive number")
 	document.getElementById(amount).focus();
 }
