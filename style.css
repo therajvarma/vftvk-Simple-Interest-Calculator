@@ -11,17 +11,21 @@ body {
 
 
 }
+h1{
+	font-family:verdana;
+	color:grey;
+}
 .maindiv {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 25rem;
+	width: 30rem;
 	margin: 0;
 	padding: 2.5rem;
 	background-color: whitesmoke ;
 	border-radius: 0.3125rem;
 	box-shadow: 0 0 1.875rem rgba(black,0.3);
-	
+	border-radius: 25px;
 	
 }
 		
