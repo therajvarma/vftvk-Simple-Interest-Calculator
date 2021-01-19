@@ -5,6 +5,7 @@ function calculate(){
 amount = document.getElementById('amount').value;
 if (amount<=0){
 alert("enter a postive number")
+	document.getElementById(amount).focus();
 }
 else{
 rateInput= document.getElementById('rateInput').value;
